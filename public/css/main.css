@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -28,17 +29,17 @@ main {
     transform: translateY(22vh);
 }
 
-.intro > h1 {
+.intro>h1 {
     color: #212121;
     font-size: 12vh;
 }
 
-.intro > h2 {
+.intro>h2 {
     color: #757575;
     font-size: 3vmin;
 }
 
-.intro > .profile {
+.intro>.profile {
     width: 10vh;
     height: 10vh;
     border-radius: 50%;
@@ -46,7 +47,8 @@ main {
 
 /*apply accent colour to links*/
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: var(--accent);
 }
 

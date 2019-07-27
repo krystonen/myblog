@@ -1,21 +1,22 @@
 baseURL = "https://myblog-krystonen.netlify.com"
 languageCode = "en-us"
-title = "Minimal Blog"
+title = "Back to Square Run"
 theme = "minimal"
 disqusShortname = "https-myblog-krystonen-netlify-com" # delete this to disable disqus comments
 googleAnalytics = ""
 
 [params]
     author = "Krisztina Kovari"
-    description = ""
+    description = "A blog about almost everything"
     githubUsername = "krystonen"
-    accent = "#6B903A"
+    accent = "#41B3A3"
     showBorder = true
-    backgroundColor = "#ccc"
-    font = "Raleway" # should match the name on Google Fonts!
+    backgroundColor = "#f2f2f2"
+    font = "Poppins" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+    custom_css = []
 
 [[menu.main]]
     url = "/"
@@ -33,9 +34,14 @@ googleAnalytics = ""
     weight = 3
 
 [[menu.main]]
+    url = "/random/"
+    name = "Random"
+    weight = 4
+
+[[menu.main]]
     url = "/about/"
     name = "About"
-    weight = 4
+    weight = 5
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
@@ -62,6 +68,6 @@ googleAnalytics = ""
     weight = 4
 
 [[menu.icon]]
-    url = "https://www.stackoverflow.com/username/"
-    name = "stack-overflow"
+    url = "https://www.instagram.com/krystonen/"
+    name = "instagram"
     weight = 5
