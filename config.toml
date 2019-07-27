@@ -9,9 +9,9 @@ googleAnalytics = ""
     author = "Krisztina Kovari"
     description = ""
     githubUsername = "krystonen"
-    accent = "green"
+    accent = "#6B903A"
     showBorder = true
-    backgroundColor = "grey"
+    backgroundColor = "#ccc"
     font = "Raleway" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "solarized-dark"
@@ -31,6 +31,11 @@ googleAnalytics = ""
     url = "/photos/"
     name = "Photos"
     weight = 3
+
+[[menu.main]]
+    url = "/about/"
+    name = "About"
+    weight = 4
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
