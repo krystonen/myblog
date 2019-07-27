@@ -2,7 +2,7 @@ baseURL = "https://myblog-krystonen.netlify.com"
 languageCode = "en-us"
 title = "Minimal Blog"
 theme = "minimal"
-disqusShortname = "krystonen" # delete this to disable disqus comments
+disqusShortname = "https-myblog-krystonen-netlify-com" # delete this to disable disqus comments
 googleAnalytics = ""
 
 [params]
